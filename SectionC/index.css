@@ -1,0 +1,120 @@
+body{
+  background-color: lightgray;  
+  
+}
+html{
+    scroll-behavior: smooth; 
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    
+}
+li{
+    float: left;
+    padding: 16px;
+    list-style: none;
+}
+
+.image1{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
+nav{
+    background-color: #2e4053;
+    display: flex;
+}
+      
+a{
+    text-decoration: none;
+    color: #eeee;
+    margin-left: 50px;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+a:hover{
+    color: #34c759;
+}
+nav:last-child{
+    margin-right: 0;
+}
+#name{
+    margin: auto;
+    padding-right: 50px;
+    font-size: x-large;
+    font-weight:bolder;
+    font-style: oblique;
+    color: lightgray;
+}
+.main-container{
+    display: flex;
+    align-items: flex-start;
+}
+.container {
+    margin-top: 150px;
+    display: flex;  
+    flex-direction: column;
+    margin-left: 150px;
+
+}
+
+.image2 {
+    margin-top: 20px;
+    margin-right: 20px; 
+    border-radius: 25px;
+    width: 27%;
+    height: 27%;
+
+}
+
+.text-container {
+    text-align: left;             
+}
+.icons a{
+    color: #333333;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+
+.icons {
+    display: flex;  
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 10px; 
+    margin-left: 01%; 
+    size: 30px;                   
+}
+
+.span1 {
+    font-size: x-large; 
+    color: #2e4053;
+    font-weight:normal;
+    
+}
+
+.career {
+    font-size: xx-large;
+    font-weight: bolder;
+    display: block;               
+    margin-top: 5px;              
+}
+#alone{
+    font-weight: bolder;
+    color: #2e4053;
+    font-size:xx-large;
+}
+.slogan{
+    font-style: italic;
+    font-size:large;
+    font-weight:550;
+    color: #567890;
+}
+

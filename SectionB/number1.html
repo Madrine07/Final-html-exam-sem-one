@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns on large screens */
+            gap: 20px; /* Space between cards */
+            padding: 20px;
+          }
+          
+          .card {
+            background-color: #f4f4f4; /* Light background for the cards */
+            padding: 20px;
+            border-radius: 8px; /* Optional: rounded corners for cards */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: shadow for a nice effect */
+          }
+          
+          @media (max-width: 768px) {
+            .card-container {
+              grid-template-columns: 1fr; /* Stack cards vertically on smaller screens */
+            }
+          }
+          
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+          <h3>Card 1</h3>
+          <p>Content for the first card.</p>
+        </div>
+        <div class="card">
+          <h3>Card 2</h3>
+          <p>Content for the second card.</p>
+        </div>
+        <div class="card">
+          <h3>Card 3</h3>
+          <p>Content for the third card.</p>
+        </div>
+      </div>
+      
+</body>
+</html>

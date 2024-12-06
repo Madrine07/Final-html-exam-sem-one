@@ -1,0 +1,160 @@
+body{
+    background-color: lightgray;  
+  }
+  
+  ul{
+      list-style-type: none;
+      padding: 0;
+      margin: auto;
+  }
+  li{
+      float: left;
+      padding: 16px;
+      list-style: none;
+  }
+  
+  .image1{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  nav{
+      background-color: #2e4053;
+      display: flex;
+  }
+        
+  a{
+      text-decoration: none;
+      color: #eeee;
+      margin-left: 50px;
+      gap: 20px;
+      padding-bottom: 30px;
+  }
+  a:hover{
+      color: #34c759;
+  }
+  nav:last-child{
+      margin-right: 0;
+  }
+  #name{
+      margin: auto;
+      padding-right: 50px;
+      font-size: x-large;
+      font-weight:bolder;
+      font-style: oblique;
+      color: lightgray;
+  }body{
+    background-color: lightgray;  
+  }
+  
+  ul{
+      list-style-type: none;
+      padding: 0;
+      margin: auto;
+  }
+  li{
+      float: left; 
+      padding: 16px;
+      list-style: none;
+  }
+  
+  .image1{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+  }
+  nav{
+      background-color: #2e4053;
+      display: flex;
+  }
+        
+  a{
+      text-decoration: none;
+      color: #eeee;
+      margin-left: 50px;
+      gap: 20px;
+      padding-bottom: 30px;
+  }
+  a:hover{
+      color: #34c759;
+  }
+  nav:last-child{
+      margin-right: 0;
+  }
+  #name{
+      margin: auto;
+      padding-right: 50px;
+      font-size: x-large;
+      font-weight:bolder;
+      font-style: oblique;
+      color: lightgray;
+  }
+  body {
+    margin: 0;
+    font-family: Arial;
+    background-color: azure;
+    scroll-behavior: smooth;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 15px;
+    padding: 20px;
+}
+
+.image {
+    flex: 1 1 300px;  
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;  
+} 
+
+.image:hover{
+    transform: scale(1.05);
+}
+
+.image img {
+    width: 80%;  
+    height: auto;  
+    display: block; 
+}
+
+
+.desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+footer{
+    background-color: black;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    padding-left: 10px ;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,143 @@
+body{
+    background-color: lightgray;  
+    
+  }
+  
+  ul{
+      list-style-type: none;
+      padding: 0;
+      margin: auto;
+      
+  }
+  li{
+      float: left;
+      padding: 16px;
+      list-style: none;
+  }
+  
+  .image1{
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      vertical-align: middle;
+      
+      
+  }
+  nav{
+      background-color: #2e4053;
+      display: flex;
+  }
+        
+  a{
+      text-decoration: none;
+      color: #eeee;
+      margin-left: 50px;
+      gap: 20px;
+      padding-bottom: 30px;
+  }
+  a:hover{
+      color: #34c759;
+  }
+  nav:last-child{
+      margin-right: 0;
+  }
+  #name{
+      margin: auto;
+      padding-right: 50px;
+      font-size: x-large;
+      font-weight:bolder;
+      font-style: oblique;
+      color: lightgray;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* Float three columns side by side */
+  .column {
+    display:inline-block;
+    width: 20%;
+    padding: 0 10px;
+  
+  }
+  /* Remove extra left and right margins, due to padding and centering the cards. */
+  .row {margin: 0 -5px; margin-left: 29.5%;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+      
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: lightcyan;    
+  }
+  .name, .email, .subject, .message{
+    width: 65%;
+    line-height: 30%;
+    padding: 1%;
+  }
+  form{
+    display: block;
+    margin-top: 0%;
+    padding: 20px;
+    border-radius: 25%;
+    margin-left: -20%;
+    margin-right: 10%;
+  }
+  fieldset{
+    background-color: azure;
+    width: 100%;
+    padding-top: 3%;
+    margin-top: -3%;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .form-bag{
+    width: 100%;
+    max-width: 90%;  /* Optional: limit the max width of the form */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  span{
+    font-weight: 900;
+  font-size: 96%;
+  letter-spacing:3%;  
+  }
+  .btn-overlay{
+    border-radius: 35%
+} 
+.main{
+    display: flex;
+    justify-content:flex-start;
+    margin-top:-5%;
+    
+} 
+footer{
+  background-color: black;
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  padding-left: 10px ;
+  padding-bottom: 20px;
+  display: flex;
+}
